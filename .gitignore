@@ -1,58 +1,59 @@
-# Flutter/Dart files
-.dart_tool/
-.packages
-.flutter-plugins
-.flutter-plugins-dependencies
-.melos_tool/
-.pub-cache/
-build/
-.idea/
-.vscode/
-*.iml
-
-# Android
-android/.gradle/
-android/captures/
-*.apk
-*.ap_
-*.keystore
-
-# iOS
-ios/Flutter/App.framework
-ios/Flutter/Flutter.framework
-ios/Flutter/Generated.xcconfig
-ios/Flutter/*.xcframework
-ios/.symlinks/
-ios/Pods/
-ios/Runner.xcworkspace/
-ios/Flutter/ephemeral/
-*.xcworkspace
-
-# Web
-web/generated/
-
-# Windows
-windows/Runner/generated_plugins.cmake
-
-# macOS
-macos/Flutter/GeneratedPluginRegistrant.swift
-macos/Pods/
-macos/.symlinks/
-
-# Linux
-linux/flutter/ephemeral/
-
-# Misc
-*.log
-*.lock
-*.DS_Store
-.env
-
-# Firebase
-.firebase/
-.firebase-debug.log*
-
-# Ignore build artifacts and debug APKs
+# Flutter build outputs
 build/
 *.apk
 *.ipa
+*.app
+.flutter-plugins
+.dart_tool/
+.packages
+Generated.xcconfig
+pubspec.lock
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+firebase-debug.log*
+firebase-debug.*.log*
+
+# Firebase cache and config
+.firebase/
+# Uncomment this if you'd like others to create their own Firebase project.
+# .firebaserc
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directories
+coverage/
+.nyc_output/
+
+# Instrumented libs
+lib-cov/
+
+# Grunt intermediate storage
+.grunt/
+
+# Bower
+bower_components/
+
+# Node.js related
+node_modules/
+.lock-wscript
+build/Release/
+.npm/
+.eslintcache
+.node_repl_history
+.yarn-integrity
+*.tgz
+
+# Environment variable files
+.env
+
+# dataconnect generated files
+.dataconnect/
