@@ -28,7 +28,7 @@ class _HomeScreenState extends State<HomeScreen> {
   // widget to display in the body. For this current setup, the body remains constant
   // and the bottom nav primarily handles navigation to GamePage.
   static const List<Widget> _widgetOptions = <Widget>[
-    Text('Index 0: Home Content'), // Placeholder for Homecccccccccccltae
+    Text('Index 0: Home Content'), // Placeholder for Home Contenttaeeeeeeeeeeeeegit
     Text('Index 1: Game Content'), // Placeholder for Game (actual navigation happens on tap)
   ];
 
