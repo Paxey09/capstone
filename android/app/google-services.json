@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "631440667955",
+    "project_id": "calmademic-25",
+    "storage_bucket": "calmademic-25.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:631440667955:android:cf85d7a6f0fc9954ee7a46",
+        "android_client_info": {
+          "package_name": "com.example.calmademic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "631440667955-o5ojl8r8mc4jnbcj7h1vvp0oir3ipiph.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.calmademic",
+            "certificate_hash": "5c66765f4df0717250529b3baca42d4c0fcc89fc"
+          }
+        },
+        {
+          "client_id": "631440667955-9anf6iqgfc23jvjsdb347b6ae3k0eomm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBP6IYwRYD-sDDVLMGi9YgSdHtU6XNw4t4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "631440667955-9anf6iqgfc23jvjsdb347b6ae3k0eomm.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "631440667955-0cfs4nnefi3j28315ntee9ohlc16gnft.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.clickCounter"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

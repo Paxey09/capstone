@@ -1,0 +1,1 @@
+ C:\\Users\\Admin\\Downloads\\Calmademic\\.dart_tool\\flutter_build\\713dea8355ccdcecc09095dafb998e3c\\native_assets.yaml: 

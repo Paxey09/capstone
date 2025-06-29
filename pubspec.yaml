@@ -1,0 +1,53 @@
+name: calmademic
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.0.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.30.0
+  firebase_auth: ^4.17.3
+  table_calendar: ^3.0.9
+  cloud_firestore: ^4.13.0
+  google_sign_in: ^6.2.1 
+  crypto: ^3.0.3
+  url_launcher: ^6.2.6
+  audioplayers: ^5.2.1 # Or the latest stable version
+  shared_preferences: ^2.2.0 # Keep this updated too
+  http: ^0.13.6
+  build_runner: ^2.4.11
+  flutter_animate: ^4.2.0
+  flutter_material_color_picker: ^1.0.0
+  rive: ^0.12.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/icon.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/images/matching_game.gif
+    - assets/images/water_ripple_taps.gif
+    - assets/images/apple.jpg
+    - assets/images/banana.jpg
+    - assets/images/grapes.jpg
+    - assets/images/pineapple.jpg
+    - assets/images/strawberry.jpg
+    - assets/images/watermelon.png
+    - assets/sounds/flip.mp3
+    - assets/sounds/match.mp3
+    - assets/animation/Cat.riv
