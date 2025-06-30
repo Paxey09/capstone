@@ -285,15 +285,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                   color: Color(0xFF69D2E7),
                 ),
               ),
-              const SizedBox(height: 20),
-              _label("User Name"),
-              _textField(
-                controller: nameController,
-                hint: "Your name",
-                readOnly: true,
-                error: invalidFields.contains("name"),
-                errorMessage: _nameErrorMessage,
-              ),
+              
               const SizedBox(height: 20),
               _label("EMAIL (.edu.ph only)"),
               _textField(
@@ -303,6 +295,15 @@ class _SignUpScreenState extends State<SignUpScreen> {
                 inputFormatters: [FilteringTextInputFormatter.allow(RegExp(r'[a-zA-Z0-9@._]'))],
                 error: invalidFields.contains("email"),
                 errorMessage: _emailErrorMessage,
+              ),
+              const SizedBox(height: 20),
+              _label("User Name"),
+              _textField(
+                controller: nameController,
+                hint: "Your name",
+                readOnly: true,
+                error: invalidFields.contains("name"),
+                errorMessage: _nameErrorMessage,
               ),
               const SizedBox(height: 20),
               _label("PASSWORD"),
